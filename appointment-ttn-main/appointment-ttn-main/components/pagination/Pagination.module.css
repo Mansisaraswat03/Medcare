@@ -1,0 +1,51 @@
+.paginationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  
+  .navButton {
+    padding: 6px 12px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+
+  .navButton:hover {
+    color: #2d6a4f;
+  }
+  
+  .navButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .pageNumbers {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .pageButton {
+    padding: 6px 12px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .pageButton:hover {
+    background-color: #f0f0f0;
+    border-radius: 6px;
+  }
+  
+  .active {
+    border: 1px solid #2d6a4f;
+    color: #2d6a4f;
+    border-radius: 6px;
+    /* font-weight: bold; */
+    border-color: #2d6a4f;
+  }
+  

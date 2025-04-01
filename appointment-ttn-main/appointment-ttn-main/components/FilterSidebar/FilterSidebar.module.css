@@ -1,0 +1,60 @@
+.sidebarWrapper {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+  
+  .resetBtn {
+    background-color: transparent;
+    color: #007B5E;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.section {
+  margin-bottom: 1rem;
+  border : 2px solid #eee;
+  border-radius: 8px;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+}
+
+.section h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section li {
+  margin-bottom: 0.5rem;
+}
+

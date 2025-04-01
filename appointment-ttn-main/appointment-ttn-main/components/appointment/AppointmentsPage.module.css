@@ -1,0 +1,65 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabButton {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  
+  .tabButton.active {
+    background-color: #2f855a;
+    color: white;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f4f4f4;
+  }
+  
+  .cancelButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cancelButton:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
